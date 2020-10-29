@@ -1,0 +1,432 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    /* box-sizing: border-box; */
+}
+
+html,body{
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+label{
+    font-size: 80% !important;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+
+#signup .card{
+    border:none;
+    box-shadow:0px 0px 15px rgb(233, 233, 233);
+}
+
+#signup .card-header .display-4{
+    font-size: 2em;
+      
+}
+#signup .card-header{
+    background-color: #fff;
+    text-align: center;
+}
+
+
+#login .card{
+
+    border: 1px solid lightgray;
+    box-shadow: 0px 4px #BB2CD9;
+    background: #fff;
+    border-radius: 0px 25% 0px 5% !important;
+   
+}
+
+#login .card-header .display-4{
+    font-size: 2em;
+      
+}
+
+#login .card-header{
+    background: transparent;
+    text-align: center;
+    
+}
+
+.sidebar{
+    background: #f7f7f7;
+   
+    
+}
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar  ul > li  a:hover{
+    background: #BB2CD9;
+    color:#f7f7f7f7; 
+    size: 10px;
+}
+.sidebar ul{
+    size: 10px;
+    color: #f7f7f7f7;
+}
+.sidebar .nav-item{
+    padding: 5px 10px;
+
+}
+.sidebar .nav-link{
+    margin-left: 14px;
+    font-size: 85%;
+    color: rgb(68, 66, 66);
+}
+
+.navbar{
+    background-image: linear-gradient(to right , #D41BB1 , #B316A8 , #9D12A1 , #7F0E99 , #6E0C95 , #330284);
+    padding: 12px;
+    
+}
+
+.navbar .nav-link{
+    color: rgb(218, 196, 196);
+    font-size: 80%;
+}
+.navbar .nav-link:hover{
+    color: #f7f7f7;
+}
+/* input */
+.form-control:focus{
+    box-shadow: none;
+    border: 2px solid #BB2CD9;
+    outline: none;
+    border-radius: 30px;
+}
+.form-control{
+    border-radius: 30px;
+}
+
+
+/* expances search button */
+#btn{
+
+    background: #D41BB1!important;
+    color: #fff !important;
+    padding: 2px 5px !important;
+    border: none !important;
+    border-radius: 5px !important;
+    box-shadow: 0px 3px #330284 !important;
+}
+
+#btn:hover{
+
+    background: #A914A5 !important;
+}
+
+
+
+.btn-primary{
+    border-radius: 30px;
+    border: 0;
+    font-weight: 200;
+    color: #fff;
+    background:#BB2CD9;
+}
+
+
+.btn-primary:hover{
+    background:rgb(117, 36, 133);
+}
+
+.btn-primary:focus{
+
+    background:rgb(117, 36, 133) !important;
+    box-shadow: none !important;
+}
+
+
+/* forgot password */
+.form-group a {
+    color: rgb(68 , 66 , 66);
+    font-size: 85%;
+    text-decoration: none;
+}
+/* logo img */
+
+#img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+/* Sidebar logo img */
+
+#img1{
+    width: 80px;
+    height: 70px;
+    margin-left: 45px;
+    margin-top: 20px;
+    
+}
+
+
+
+/* employee */
+#employee .card{
+    border:none;
+    box-shadow:0px 0px 15px rgb(233, 233, 233);
+    
+}
+
+#employee .card-header{
+
+    background-color: #fff;
+    text-align: center;
+}
+
+.table{
+    font-size: 69%;
+}
+/* btn-xs */
+.btn-xs{
+    font-size: 80%;
+    padding: 5px;
+}
+
+/* Salary */
+
+#salary .card{
+    border: none;
+    box-shadow: 0px 0px 15px rgb(233, 233, 233);
+}
+#salary .card-header{
+    background-color: #fff;
+    text-align: center;
+}
+
+#expances .card{
+    border: none;
+    box-shadow:0px 0px 15px rgb(233  , 233 , 233);
+
+}
+
+#expances .card-header{
+    background: #fff;
+    text-align: center;
+}
+
+/* project */
+
+#project .card{
+    border: none;
+    box-shadow: 0px 0px 15px rgb(233, 233, 233);
+}
+
+#project .card-header{
+
+    text-align: center;
+    background: #fff;
+}
+
+/* dropdown */
+
+.dropdown{
+    background:#BB2CD9;
+    
+}  
+
+
+/* History */
+
+#history .card{
+    border: none;
+    box-shadow: 0px 0px 15px rgb(233, 233, 233);
+
+}
+
+#history .card-header{
+
+    text-align: center;
+    background: #fff;
+}
+
+/* portfolio */
+
+#portfolio .card{
+    border: none;
+    box-shadow: 0px 0px 15px rgb(233, 233, 233);
+}
+
+#portfolio .card-header{
+
+    text-align: center;
+    background: #fff;
+}
+
+
+/* users */
+
+#users .card{
+    border: none;
+    box-shadow: 0px 0px 15px rgb(233, 233, 233);
+
+}
+
+#users .card-header{
+    text-align: center;
+    background: #fff;
+}
+
+
+
+
+/* Dashboard index Start */
+
+#card{
+
+    background: linear-gradient(to right , #5A27D6 , #3262F3 );
+
+}
+
+
+/* project card */
+
+#pro-card{
+
+    background: linear-gradient(to right , #FB6320 , #F8A22E);
+}
+
+/* expenses card */
+#exp-card{
+    background: linear-gradient(to right , #42BB72 , rgb(122, 228, 98));
+}
+
+/* total expenses */
+#exp_text{
+    font-size: 12px;
+    color: #fff;
+
+}
+
+#exp_id{
+    color:#fff;
+    font-size: 20px;
+    
+}
+
+/* expense icon */
+#exp-Icon{
+
+     color:#fff;
+    margin-left:45%;
+    font-size:55px;
+    
+}
+/* Users */
+
+
+#user-card{
+    background: linear-gradient(to right , #F11D61 , #FD5D10);
+}
+
+/* user icon */
+
+#user-Icon{
+
+    color:#fff;
+    margin-left:62%;
+    font-size:50px;
+}
+
+#emp_id{
+    font-size: 35px;
+    color: #fff;
+ 
+}
+
+/* TOTAL EMPLOYEE */
+
+#emp_text{
+    font-size: 12px;
+    color: #fff;
+}
+
+/* User icon Dashboard */
+#userIcon{
+
+    color:#fff;
+    margin-left:50%;
+    font-size:43px;
+
+}
+/* project icon */
+#pro-Icon{
+
+    color:#fff;
+    margin-left:61%;
+    font-size:43px;
+
+}
+
+/* index table */
+#index_emp .card{
+    border:none;
+    box-shadow:0px 3px rgb(85, 78, 78);
+    
+}
+
+/* highchart */
+#index-card .card{
+    border: none;
+    box-shadow: 0px 0px 15px rgb(233, 233, 233);
+
+}
+
+#index_emp .card-header{
+
+    background-color: #fff;
+    text-align: center;
+}
+
+/* end Index  */
+
+
+
+
+/* dataTables button */
+.dt-button{
+    background: #D41BB1!important;
+    color: #fff !important;
+    padding: 2px 5px !important;
+    border: none !important;
+    border-radius: 5px !important;
+    box-shadow: 0px 3px #330284 !important;
+
+}
+.dt-button:hover {
+    background: #A914A5 !important;
+}
+
+
+
+/* active class pagination */
+.page-item.active .page-link{
+
+    background: #D41BB1;
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+
+/* table + sign color */
+.table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th:first-child:before{
+
+    background: #D41BB1;
+    
+}
+
+
+/* show employee img */
+
